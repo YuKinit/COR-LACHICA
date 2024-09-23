@@ -1,0 +1,497 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    margin-top: 10px;
+}
+.content{
+    margin-right: 40px ;
+}
+
+.content p{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin: 0.5em;
+    
+}
+.logo{
+    margin-right:45px ;
+}
+img{
+    width: 100px;
+}
+
+.content-2{
+    display: flex;
+    justify-content: center;
+}
+
+.content-2 h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+    
+}
+
+
+.main-container{
+    margin: 0.8% 5% 0 5%;
+    border: solid black;
+    height: fit-content;
+}
+
+.main-content-student{
+    border-bottom: solid black;
+}
+
+.student-header{
+    display: flex;
+    background-color: rgb(203, 204, 245);
+    justify-content: center;
+    font-size: 1.2rem;
+    border-bottom: solid;
+    word-spacing: 0.1em;
+}
+
+.registration-no{
+    margin: 15px 0 1px 120px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.regis-number{
+    margin-left: 15px;
+    color: #941212;
+}
+
+
+.gender-age{
+    display: flex;
+}
+
+.student-container1{
+    width: 33.4%;
+    padding: 10px;
+}
+
+.student-information{
+    display: flex;
+    width: 100%;
+    
+}
+
+.number-name, .College, .School-year{
+    font-weight: bold;
+    
+}
+
+.number-name li{
+    margin-bottom: 7px;
+}
+
+.student-id{
+    margin-left: 20px;
+}
+
+.student-name{
+    margin-left: 20px;
+}
+
+.gender-age-container{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.age{
+    margin-left:50px;
+}
+
+.gender-age li span, .School-year li span{
+    margin-left: 10px;
+}
+
+
+.student-container2{
+    width: 33.4%;
+    padding: 10px;
+}
+
+.College li, .School-year li{
+    margin-bottom: 6px;
+}
+
+.School-year {
+    margin-top: 10px;
+}
+
+.College li span{
+    margin-left: 5.5px;
+}
+
+.bachelor{
+    font-size: 15.4px;
+}
+
+.code-title ul{
+    display: flex;
+    gap: 8%;
+    padding: 8px;
+    margin-left:10px ;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    
+}
+
+.code-title{
+    background-color:  rgb(203, 204, 245);
+    border-bottom: solid;
+}
+
+.code{
+    width: 80px;
+    height: 400px;
+    padding: 2px;
+    margin-left: 10px;
+   
+   
+}
+.sub{
+    width: 280px;
+    height: 400px;
+    padding: 2px;
+    margin-left: 50px;
+    
+}
+
+ .unit{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+ }
+.unit ul{
+    display: flex;
+    width: 140px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    
+}
+
+.lec-lab-cre{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.lec-lab-cre ul{
+    display: flex;
+    width: 180px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
+
+.units{
+    width: 200px;
+    height: 400px;
+    padding: 2px;
+    margin-left: 20px;
+    
+    
+}
+.code ul li, .sub ul li, .units-number{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.code-sub-container{
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+    border-top: solid black;
+    list-style: none;
+}
+
+.units-contents{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.units-number{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    
+}
+
+.units-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    margin-left: 7px;
+    border-top: solid black;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.total-units{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+.total{
+    width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 40px;
+}
+
+.section{
+    width: 200px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1rem;
+
+}
+
+.section ul li{
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.schedule{
+    width: 17%;
+    font-size: 1rem;
+}
+
+.schedule ul li{
+    padding-bottom: 3px;
+    padding-top: 5px; 
+}
+
+.faculty{
+    width: 19%;
+    font-size: 1rem;
+    padding-left: 5%;
+}
+
+.faculty li{
+    padding-top: 5px; 
+    padding-bottom: 3px ;
+    justify-content: baseline;
+    align-items: first baseline;
+    border-bottom: solid black;
+}
+
+.faculty .s2{
+    padding-top: 28px;
+}
+.note{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 0.7em;
+}
+
+.main-container2{
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    border-collapse: collapse;
+    margin: 0;
+    overflow: hidden;
+}
+.fees{
+    border: solid;
+}
+.table-fees{
+    width: 600px;
+    height: 50%;
+}
+.table-fees .table-header{
+    background-color: rgb(203, 204, 245);
+    border-bottom: solid black;
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+
+td {
+    padding: 4px 30px 0 40px ;
+  }
+
+  .table-fees2{
+    border: solid;
+  }
+
+  .table2{
+    width: 100%;
+    
+  }
+
+  .table2, thead{
+    border-top:solid 2px black;
+    border-collapse:collapse ;
+    
+    
+  }
+
+  .table2 th, .table2 td{
+    padding: 8px;
+  }
+  .table2 td{
+    width: 25%;
+    height: 25%;
+    text-align: end;
+    font-weight: bold;
+  }
+.table3 th{
+    background-color: rgb(203, 204, 245);
+    width: 597px;
+    border-top: solid;
+    border-bottom: solid;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.table3{
+    border-collapse: collapse;
+}
+  .table3 td{
+    padding: 10px 10px 10px 30px ;
+    border: solid;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+  }
+
+.table3 tr td:first-child {
+    border-left: none;
+}
+.table3 tr td:last-child {
+    border-right: none;
+}
+.table3 tr:last-child td {
+    border-bottom: none;
+}
+.payment{
+    word-spacing: 22px;
+}
+
+.rules-refund{
+    width: 50%;
+    padding:0 50px;
+}
+    
+
+
+.rules-refund-content h3{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+}
+
+.rules-refund-content li{
+    font-family: 'Mv Boli',serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.receipt{
+    width: 100%;
+    height: 50%;
+    padding:0 10px;
+    margin-top: 15%;
+    font-weight: bold;
+}
+
+.receipt ul{
+    height: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.receipt li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: last baseline;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.payment-date, .blank-receipt{
+    width: 100%;
+    text-align: center;
+    border-bottom: solid;
+}
+
+.registrar{
+    display: flex;
+    width: 100%;
+    height: 18%;
+    justify-content: end;
+    font-weight: bold;
+}
+  
+
+.registrar-content{
+    width: 50%;
+    padding: 9%;
+}
+.registrar-name{
+    margin-left: 80px;
+    width: 80%;
+    height: 100%;
+    padding: 5% 0;
+    text-align: center;
+  
+}
+.reg-name{
+    border-bottom: solid;
+    padding: 2%;
+}
+.registrar-content p{
+    margin: 2%;
+}
+
+.date-printed{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 0.9rem;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(203, 204, 245);
+    border-top: solid;
+    font-weight: bold;
+}
